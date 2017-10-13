@@ -1,0 +1,43 @@
+{
+    "manifest-version": 1,
+    "name": "andyc1-walkthrough_test",
+    "version": "0.1.0",
+    "description": "new test ageian",
+    "author": "andyc1",
+    "licence": "MIT",
+    "databox-type": "app",
+    "tags": [
+        "adslhs"
+    ],
+    "homepage": "https://github.com/andyc1/databox.tutorial-freememory",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/andyc1/databox.tutorial-freememory.git"
+    },
+    "packages": [
+        {
+            "id": "1f9a05e0.1ae7ea",
+            "name": "new package",
+            "purpose": "asd",
+            "required": false,
+            "datastores": [
+                "9128d013.fb4b7"
+            ],
+            "benefits": "sadas"
+        }
+    ],
+    "allowed-combinations": [],
+    "datasources": [
+        {
+            "type": "freemem",
+            "required": true,
+            "name": "free memory",
+            "clientid": "9128d013.fb4b7",
+            "granularities": []
+        }
+    ],
+    "network-permissions": [],
+    "resource-requirements": {},
+    "volumes": [],
+    "export-whitelist": []
+}
